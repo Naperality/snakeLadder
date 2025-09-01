@@ -36,14 +36,12 @@ It handles **player positions, snakes, and ladders** as well as game state updat
   `"PLAYER1:ROLL=4"`
 - Board Unit → Control Unit:  
   `"PLAYER1:POS=17"`
-
 ---
 
 ## 🚀 Running the Board Unit
 1. Upload the provided Arduino/Pico/ESP32 code to your board.
 2. Connect to the Control Unit via **UART/I2C/SPI**.
 3. Observe updates on the display as players move.
-
 ---
 
 ## 📂 Folder Structure
@@ -53,4 +51,3 @@ BoardUnit/
 │── src/ # Source code for Board Unit
 │── README.md # Documentation (this file)
 ```
-
