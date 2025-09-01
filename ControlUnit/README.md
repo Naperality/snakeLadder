@@ -2,7 +2,6 @@
 
 The **Control Unit** acts as the game controller.  
 It manages **dice rolls, user input, and game flow**, while delegating board logic to the Board Unit.
-
 ---
 
 ## 📌 Responsibilities
@@ -11,7 +10,6 @@ It manages **dice rolls, user input, and game flow**, while delegating board log
 - Receive updated positions from Board Unit.
 - Display current game status (turns, positions, winner).
 - Ensure correct turn order for multiple players.
-
 ---
 
 ## 🔧 Hardware Used
@@ -19,7 +17,6 @@ It manages **dice rolls, user input, and game flow**, while delegating board log
 - **Push Button / IR Sensor** – for dice roll input.
 - **OLED / LCD Display** – to show dice results and player status.
 - **UART/I2C/SPI** – communication with Board Unit.
-
 ---
 
 ## ⚙️ How it Works
@@ -29,7 +26,6 @@ It manages **dice rolls, user input, and game flow**, while delegating board log
 4. Receives new player position from the Board Unit.
 5. Updates display with game status.
 6. Continues until a player reaches the finish.
-
 ---
 
 ## 📜 Example Data Exchange
@@ -37,7 +33,6 @@ It manages **dice rolls, user input, and game flow**, while delegating board log
   `"PLAYER2:ROLL=6"`
 - Board Unit → Control Unit:  
   `"PLAYER2:POS=21"`
-
 ---
 
 ## 🚀 Running the Control Unit
@@ -45,7 +40,6 @@ It manages **dice rolls, user input, and game flow**, while delegating board log
 2. Connect push button and display module.
 3. Establish communication link with Board Unit.
 4. Start the game by pressing the button.
-
 ---
 
 ## 📂 Folder Structure
