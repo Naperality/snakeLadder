@@ -2,6 +2,7 @@
 
 The **Control Unit** acts as the game controller.  
 It manages **dice rolls, user input, and game flow**, while delegating board logic to the Board Unit.
+
 ---
 
 ## 📌 Responsibilities
@@ -50,7 +51,9 @@ It manages **dice rolls, user input, and game flow**, while delegating board log
 ## 📂 Folder Structure
 
 ```
+
 ControlUnit/
 │── src/ # Source code for Control Unit
 │── README.md # Documentation (this file)
+
 ```
