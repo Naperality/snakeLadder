@@ -55,5 +55,4 @@ It manages **dice rolls, user input, and game flow**, while delegating board log
 ControlUnit/
 │── src/ # Source code for Control Unit
 │── README.md # Documentation (this file)
-
 ```
