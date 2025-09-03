@@ -2,7 +2,6 @@
 
 The **Board Unit** represents the physical game board.  
 It handles **player positions, snakes, and ladders** as well as game state updates.
-
 ---
 
 ## 📌 Responsibilities
@@ -11,7 +10,6 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 - Track each player’s current position.
 - Update positions after dice rolls.
 - Send feedback to the Control Unit.
-
 ---
 
 ## 🔧 Hardware Used
@@ -40,7 +38,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
   `"PLAYER1:ROLL=4"`
 - Board Unit → Control Unit:  
   `"PLAYER1:POS=17"`
-  
+
 ---
 
 ## 🚀 Running the Board Unit
