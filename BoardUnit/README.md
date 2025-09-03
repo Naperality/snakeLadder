@@ -40,6 +40,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
   `"PLAYER1:ROLL=4"`
 - Board Unit → Control Unit:  
   `"PLAYER1:POS=17"`
+  
 ---
 
 ## 🚀 Running the Board Unit
@@ -50,6 +51,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 
 ## 📂 Folder Structure
+
 ```
 BoardUnit/
 │── src/ # Source code for Board Unit
