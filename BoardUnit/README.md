@@ -6,6 +6,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 
 ## 📌 Responsibilities
+
 - Store board layout (snakes and ladders mapping).
 - Track each player’s current position.
 - Update positions after dice rolls.
@@ -14,6 +15,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 
 ## 🔧 Hardware Used
+
 - **Microcontroller** (Arduino / ESP32 / Pico)
 - **LED Matrix / LCD** – to display board and player tokens.
 - **Optional Servos** – to move physical tokens.
@@ -22,6 +24,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 
 ## ⚙️ How it Works
+
 1. Receives dice roll result from **Control Unit**.
 2. Updates the player’s position on the board.
 3. Checks for **snake or ladder rules**:
@@ -32,6 +35,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 
 ## 📜 Example Data Exchange
+
 - Control Unit → Board Unit:  
   `"PLAYER1:ROLL=4"`
 - Board Unit → Control Unit:  
@@ -39,13 +43,13 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 
 ## 🚀 Running the Board Unit
+
 1. Upload the provided Arduino/Pico/ESP32 code to your board.
 2. Connect to the Control Unit via **UART/I2C/SPI**.
 3. Observe updates on the display as players move.
 ---
 
 ## 📂 Folder Structure
-
 ```
 BoardUnit/
 │── src/ # Source code for Board Unit
