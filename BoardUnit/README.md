@@ -2,6 +2,7 @@
 
 The **Board Unit** represents the physical game board.  
 It handles **player positions, snakes, and ladders** as well as game state updates.
+
 ---
 
 ## 📌 Responsibilities
