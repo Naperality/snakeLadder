@@ -2,7 +2,6 @@
 
 The **Board Unit** represents the physical game board.  
 It handles **player positions, snakes, and ladders** as well as game state updates.
-
 ---
 
 ## 📌 Responsibilities
@@ -11,7 +10,6 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 - Track each player’s current position.
 - Update positions after dice rolls.
 - Send feedback to the Control Unit.
-
 ---
 
 ## 🔧 Hardware Used
@@ -48,7 +46,6 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 1. Upload the provided Arduino/Pico/ESP32 code to your board.
 2. Connect to the Control Unit via **UART/I2C/SPI**.
 3. Observe updates on the display as players move.
-
 ---
 
 ## 📂 Folder Structure
@@ -57,5 +54,4 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 BoardUnit/
 │── src/ # Source code for Board Unit
 │── README.md # Documentation (this file)
-
 ```
