@@ -10,6 +10,7 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 - Track each player’s current position.
 - Update positions after dice rolls.
 - Send feedback to the Control Unit.
+
 ---
 
 ## 🔧 Hardware Used
