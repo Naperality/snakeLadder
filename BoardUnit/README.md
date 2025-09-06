@@ -18,7 +18,6 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 - **LED Matrix / LCD** – to display board and player tokens.
 - **Optional Servos** – to move physical tokens.
 - **UART/I2C/SPI** – for communication with Control Unit.
-
 ---
 
 ## ⚙️ How it Works
