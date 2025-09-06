@@ -12,14 +12,6 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 - Send feedback to the Control Unit.
 
 ---
-
-
-
-
-
-
-
-
 ## 🔧 Hardware Used
 
 - **Microcontroller** (Arduino / ESP32 / Pico)
