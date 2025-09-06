@@ -13,6 +13,13 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 
 ---
 
+
+
+
+
+
+
+
 ## 🔧 Hardware Used
 
 - **Microcontroller** (Arduino / ESP32 / Pico)
