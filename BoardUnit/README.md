@@ -14,6 +14,11 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 ## 🔧 Hardware Used
 
+
+
+
+
+
 - **Microcontroller** (Arduino / ESP32 / Pico)
 - **LED Matrix / LCD** – to display board and player tokens.
 - **Optional Servos** – to move physical tokens.
