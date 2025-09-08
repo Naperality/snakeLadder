@@ -20,7 +20,6 @@ It handles **player positions, snakes, and ladders** as well as game state updat
 ---
 
 ## ⚙️ How it Works
-
 1. Receives dice roll result from **Control Unit**.
 2. Updates the player’s position on the board.
 3. Checks for **snake or ladder rules**:
